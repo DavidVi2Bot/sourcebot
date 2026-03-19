@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sourcebot"
+version = "0.1.0"
+description = "An experimental autonomous coding agent framework with DAG execution, tool use, and CLI interface."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name="DavidVi2Bot"}
+    ]
+license = { text = "MIT" }
+
+keywords = ["ai", "agent", "llm", "automation", "devin"]
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+
+dependencies = [
+    "cmd2>=2.4.0",
+    "docker>=6.0.0",
+    "pydantic>=2.0",
+    "PyYAML>=6.0",
+    "rich>=13.0",
+    "typer>=0.9.0",
+    "openai>=1.0.0",
+    "loguru>=0.7.0",
+    "python-dotenv>=1.0.0",
+    "networkx>=3.0",
+]
+
+[project.scripts]
+sourcebot = "sourcebot.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "black",
+    "ruff",
+]
+
+[project.urls]
+Homepage = "https://github.com/DavidVi2Bot/sourcebot"
+Repository = "https://github.com/DavidVi2Bot/sourcebot"
+Issues = "https://github.com/DavidVi2Bot/sourcebot/issues"

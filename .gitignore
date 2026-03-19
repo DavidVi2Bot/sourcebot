@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+*.egg
+dist/
+build/
+
+# 日志文件
+*.log
+sourcebot.log
+
+# 工作区数据（根据你的需求决定是否忽略）
+workspace/
+src/workspace/
+src/sourcebot/workspace/
+document/进度/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 虚拟环境
+venv/
+env/
+.env
+.venv
