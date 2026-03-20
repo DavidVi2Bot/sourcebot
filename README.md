@@ -270,17 +270,3 @@ MIT License
 
 ---
 
-## 🚀 Hacker News Title Ideas
-
-* Show HN: SourceBot – A DAG-based autonomous coding agent framework
-
-
----
-
-## 💥 Final Thought
-
-> Chatbots answer.
->
-> Agents act.
->
-> **SourceBot executes.**
