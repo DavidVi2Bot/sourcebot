@@ -43,7 +43,7 @@ sourcebot cli
 ```
 > ⚡ Example: Build a Python HTTP server autonomously
 
-![SourceBot Demo](./assets/demo.gif)
+![SourceBot Demo](https://raw.githubusercontent.com/DavidVi2Bot/sourcebot/main/assets/demo.gif)
 
 > ⚡ Demo is shortened for clarity
 
